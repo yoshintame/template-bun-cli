@@ -4,19 +4,20 @@
     "": {
       "name": "local-msw",
       "dependencies": {
-        "@dotenvx/dotenvx": "latest",
+        "@dotenvx/dotenvx": "^1.41.0",
+        "type-fest": "^4.41.0",
       },
       "devDependencies": {
-        "@biomejs/biome": "latest",
-        "@commitlint/cli": "latest",
-        "@commitlint/config-conventional": "latest",
-        "@total-typescript/ts-reset": "latest",
-        "@types/bun": "latest",
-        "@types/node": "latest",
-        "husky": "latest",
-        "knip": "latest",
-        "lint-staged": "latest",
-        "typescript": "latest",
+        "@biomejs/biome": "^1.9.4",
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "@total-typescript/ts-reset": "^0.6.1",
+        "@types/bun": "^1.2.10",
+        "@types/node": "^22.15.2",
+        "husky": "^9.1.7",
+        "knip": "^5.50.5",
+        "lint-staged": "^15.5.1",
+        "typescript": "^5.8.3",
       },
     },
   },
@@ -378,6 +379,8 @@
     "tinyexec": ["tinyexec@0.3.2", "", {}, "sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA=="],
 
     "to-regex-range": ["to-regex-range@5.0.1", "", { "dependencies": { "is-number": "^7.0.0" } }, "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ=="],
+
+    "type-fest": ["type-fest@4.41.0", "", {}, "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA=="],
 
     "typescript": ["typescript@5.8.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
 
