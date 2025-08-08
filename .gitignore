@@ -41,5 +41,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 *.sw?
 
 # OS-specific files
-.DS_Store
+**/.DS_Store
 
+*-debug.log
+*-error.log
+/tmp
+oclif.manifest.json
