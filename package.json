@@ -31,19 +31,20 @@
     "vitest": "^3.2.4"
   },
   "devDependencies": {
-    "@oclif/test": "^4.1.13",
-    "@types/node": "^18.19.121",
-    "oclif": "^4.22.6",
-    "shx": "^0.3.4",
-    "typescript": "^5.9.2",
     "@biomejs/biome": "^2.1.4",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@oclif/test": "^4.1.13",
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/bun": "^1.2.19",
+    "@types/node": "^18.19.121",
+    "@yoshintame/biome-config": "^1.0.0",
     "husky": "^9.1.7",
     "knip": "^5.62.0",
-    "lint-staged": "^16.1.4"
+    "lint-staged": "^16.1.4",
+    "oclif": "^4.22.6",
+    "shx": "^0.3.4",
+    "typescript": "^5.9.2"
   },
   "files": [
     "/bin",
