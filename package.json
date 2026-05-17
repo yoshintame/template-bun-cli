@@ -7,10 +7,12 @@
   "scripts": {
     "build": "shx rm -rf dist && dotenvx run --env-file=.env.development -- tsc -b",
     "postpack": "shx rm -f oclif.manifest.json",
-    "posttest": "pnpm run lint",
+    "posttest": "bun run lint",
     "prepack": "oclif manifest && oclif readme",
     "test": "vitest run",
-    "version": "oclif readme && git add README.md",
+    "changeset": "changeset",
+    "version": "changeset version && oclif readme && git add README.md",
+    "release": "changeset publish",
     "format": "biome format --write",
     "lint": "biome lint --write",
     "lint:dry": "biome lint",
@@ -33,6 +35,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.4",
+    "@changesets/cli": "^2.31.0",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@oclif/test": "^4.1.13",
