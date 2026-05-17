@@ -1,28 +1,13 @@
 {
+  "extends": ["@tsconfig/strictest", "@tsconfig/node-lts"],
   "compilerOptions": {
     "declaration": true,
-    "module": "Node16",
+    "composite": true,
     "outDir": "dist",
     "rootDir": "src",
-    "target": "es2022",
-    "moduleResolution": "node16",
-    "composite": true,
-
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    },
-
-    "strict": true,
-    "skipLibCheck": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": true
+    }
   },
-  "include": ["./src/**/*"],
-  "ts-node": {
-    "esm": true
-  }
+  "include": ["./src/**/*"]
 }
